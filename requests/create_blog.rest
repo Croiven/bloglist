@@ -1,9 +1,11 @@
 POST http://localhost:3003/api/blogs
 Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkNyb2l2ZW4iLCJpZCI6IjVlOGYzOGFiZGNkYjdmNTYyODVkODVhMSIsImlhdCI6MTU4NjQ1MTgyNH0.V5QdW3H-ww8YlOLBSnuZmP_lApMzpwOf0cl3QACwL7c
+
 
 {
-    "title": "blogi123",
-    "author": "jokujaska",
-    "url": "asd1234",
+    "title": "haeblogi12345",
+    "author": "Croiven",
+    "url": "https://www.google.fi/",
     "likes": 324642354326
   }
